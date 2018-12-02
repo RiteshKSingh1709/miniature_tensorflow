@@ -54,9 +54,12 @@ def postorder_traversal(node):
 
 
 class Session():
-	def __init__(self):
-		pass
-		
+	def __init__(self,graph=None):
+		if graph == None:
+			pass
+		else:
+			self.graph = _default_graph
+
 	def run():
 		postorder_traversal  = postorder_traversal(operation)
 		node_postorder = traverse_postorder(operation)
